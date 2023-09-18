@@ -5,6 +5,10 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet.Capitulo202.Razor", "AspNet.Capitulo202.Razor\AspNet.Capitulo202.Razor.csproj", "{C590FF9F-0E8D-480B-AA4E-111439956D46}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Marketplace", "Marketplace", "{506861E2-3194-4E99-B2DB-5A472940F2C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marketplace.Repositorios.SqlServer.DbFirst", "Marketplace.Repositorios.SqlServer.DbFirst\Marketplace.Repositorios.SqlServer.DbFirst.csproj", "{7513A8BD-A105-42A6-BA4C-108F902A4E92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{C590FF9F-0E8D-480B-AA4E-111439956D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C590FF9F-0E8D-480B-AA4E-111439956D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C590FF9F-0E8D-480B-AA4E-111439956D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7513A8BD-A105-42A6-BA4C-108F902A4E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7513A8BD-A105-42A6-BA4C-108F902A4E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7513A8BD-A105-42A6-BA4C-108F902A4E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7513A8BD-A105-42A6-BA4C-108F902A4E92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7513A8BD-A105-42A6-BA4C-108F902A4E92} = {506861E2-3194-4E99-B2DB-5A472940F2C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4AD6A228-52AE-4EA3-85F2-C156E77ED710}
