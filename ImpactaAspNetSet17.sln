@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marketplace.Repositorios.Sq
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marketplace.Mvc", "Marketplace.Mvc\Marketplace.Mvc.csproj", "{294CEA78-8414-435E-AC0E-F79880BE03ED}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GatewayPagamento", "GatewayPagamento", "{D87538AB-A284-469D-919B-9D35C4B6669D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GatewayPagamento.Dominio", "GatewayPagamento.Dominio\GatewayPagamento.Dominio.csproj", "{0F6484E7-AF83-408E-A8B9-9C05BE24A817}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GatewayPagamento.Repositorios.SqlServer.CodeFirst", "GatewayPagamento.Repositorios.SqlServer.CodeFirst\GatewayPagamento.Repositorios.SqlServer.CodeFirst.csproj", "{04DABF34-607C-4BBB-9F66-13103F06A038}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +35,14 @@ Global
 		{294CEA78-8414-435E-AC0E-F79880BE03ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{294CEA78-8414-435E-AC0E-F79880BE03ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{294CEA78-8414-435E-AC0E-F79880BE03ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F6484E7-AF83-408E-A8B9-9C05BE24A817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F6484E7-AF83-408E-A8B9-9C05BE24A817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F6484E7-AF83-408E-A8B9-9C05BE24A817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F6484E7-AF83-408E-A8B9-9C05BE24A817}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04DABF34-607C-4BBB-9F66-13103F06A038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04DABF34-607C-4BBB-9F66-13103F06A038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04DABF34-607C-4BBB-9F66-13103F06A038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04DABF34-607C-4BBB-9F66-13103F06A038}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +50,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7513A8BD-A105-42A6-BA4C-108F902A4E92} = {506861E2-3194-4E99-B2DB-5A472940F2C3}
 		{294CEA78-8414-435E-AC0E-F79880BE03ED} = {506861E2-3194-4E99-B2DB-5A472940F2C3}
+		{0F6484E7-AF83-408E-A8B9-9C05BE24A817} = {D87538AB-A284-469D-919B-9D35C4B6669D}
+		{04DABF34-607C-4BBB-9F66-13103F06A038} = {D87538AB-A284-469D-919B-9D35C4B6669D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4AD6A228-52AE-4EA3-85F2-C156E77ED710}
